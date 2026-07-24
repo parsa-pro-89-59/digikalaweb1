@@ -1,0 +1,445 @@
+header {
+  width: 100%;
+  height: 60px;
+  background-color: #ffffff;
+}
+header.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: fixed;
+}
+.logo {
+  flex-shrink: 0;
+}
+img.logo {
+  width: 195px;
+  height: 30px;
+}
+div.Search-box input {
+  width: 500px;
+  height: 44px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  background-color: #f0f0f1;
+  font-size: 14px;
+  padding: 0 16px;
+  flex: 1;
+  margin-right: 30px;
+}
+.header-left {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-right: 650px;
+  word-spacing: 10px;
+}
+.login-btn {
+  width: 135px;
+  height: 40px;
+  background-color: #ffffff;
+  border: 1px solid #d6d6d6;
+  border-radius: 8px;
+  font-size: 17px;
+  direction: ltr;
+  color: rgb(12, 12, 12);
+  margin-left: 15px;
+}
+button.login-btn > svg {
+  direction: rtl;
+}
+.cart {
+  font-size: 17px;
+  cursor: pointer;
+  border-right: 1px solid #e0e0e2;
+  padding-right: 16px;
+  color: rgb(2, 2, 2);
+}
+.bell {
+  width: 40px;
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 16px;
+  cursor: pointer;
+}
+.bell svg {
+  width: 24px;
+  height: 24px;
+  color: rgb(2, 2, 2);
+}
+nav {
+  width: 100%;
+  background-color: #fff;
+}
+
+/* ===== NAV FIX ===== */
+
+nav {
+  width: 100%;
+  border-bottom: 1px solid #eaeaea;
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-start; /* کل نویگیشن رو می‌بره سمت راست صفحه */
+}
+
+.containerNav {
+  max-width: 1200px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 0;
+}
+
+.nav-right > div {
+  display: flex;
+  align-items: center;
+}
+
+.nav-right a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  color: #262222;
+  font-size: 14px;
+  padding: 8px 14px;
+  border-radius: 6px;
+  white-space: nowrap;
+  transition: background-color 0.2s;
+}
+
+.nav-right a:hover {
+  background-color: #f5f5f5;
+}
+
+/* اولین آیتم (دسته‌بندی کالاها) یه‌کم برجسته‌تر */
+.category a {
+  font-weight: 600;
+  border-left: 1px solid #eaeaea;
+  padding-left: 20px;
+  margin-left: 8px;
+}
+
+.gold-icon {
+  color: #c9a227; /* رنگ طلایی برای آیکون طلا و نقره */
+}
+div.bestSellers {
+  border-left: 1px solid #eaeaea;
+}
+.category:hover {
+  border-bottom: 2px solid crimson;
+}
+.amazings:hover {
+  border-bottom: 2px solid crimson;
+}
+div.supermar:hover {
+  border-bottom: 2px solid crimson;
+}
+div.nav-item:hover {
+  border-bottom: 2px solid crimson;
+}
+div.bestSellers:hover {
+  border-bottom: 2px solid crimson;
+}
+div.qustion:hover {
+  border-bottom: 2px solid crimson;
+}
+div.digisell:hover {
+  border-bottom: 2px solid crimson;
+}
+
+div.serviceIcon {
+  margin-top: 90px;
+}
+div.supermarketFast {
+  width: 52px;
+  height: 50px;
+  background-color: #008443;
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+  margin-right: 350px;
+  margin-top: 50px;
+  direction: rtl;
+}
+div.supermarketFast a {
+  margin: auto 15px;
+}
+span.supermarketfast {
+  color: #262222;
+  font-size: 15px;
+  margin-right: 345px;
+  margin-top: 75px;
+}
+
+div.goldIcon {
+  width: 52px;
+  height: 50px;
+  color: #e6e3dd;
+  background-color: #015e5f;
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-right: 480px;
+
+  margin-top: -68.3px;
+}
+span.goldtext {
+  color: #262222;
+  font-size: 15px;
+  margin-right: 465px;
+  margin-top: -63.5px;
+}
+div.football {
+  width: 52px;
+  height: 50px;
+  color: #e6e3dd;
+  background-color: rgb(143, 41, 240);
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-right: 595px;
+  margin-top: -68.3px;
+}
+span.footballtext {
+  color: #262222;
+  font-size: 15px;
+  margin-right: 590px;
+  margin-top: -63.5px;
+}
+div.sendfast {
+  width: 52px;
+  height: 50px;
+  color: #e6e3dd;
+  background-color: orange;
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-right: 705px;
+  margin-top: -63.5px;
+}
+span.sendfasttext {
+  color: #262222;
+  font-size: 15px;
+  margin-right: 695px;
+  margin-top: -63.5px;
+}
+div.baby {
+  width: 52px;
+  height: 50px;
+  color: #e6e3dd;
+  background-color: rgb(160, 22, 50);
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-right: 820px;
+  margin-top: -68.3px;
+}
+span.babytext {
+  color: #262222;
+  font-size: 15px;
+  margin-right: 795px;
+  margin-top: -63.5px;
+}
+
+span.digiservic {
+  color: #262222;
+  font-size: 15px;
+  margin-right: 925px;
+  margin-top: -63.5px;
+}
+div.servicdigi {
+  width: 52px;
+  height: 50px;
+  color: #e6e3dd;
+  background-color: #246b65;
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-right: 935px;
+  margin-top: -68.3px;
+}
+div.servicdigi > a > svg {
+  width: 45px;
+  height: 40px;
+  margin: 50px auto;
+}
+
+div.map {
+  margin-right: 720px;
+}
+div.offermilion {
+  width: 52px;
+  height: 50px;
+  color: #e6e3dd;
+  background-color: #000000;
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-right: 1045px;
+  margin-top: -68.3px;
+}
+div.offermilion > a > span {
+  color: #e6e6e6;
+  font-size: 20px;
+}
+span.offermiliontext {
+  color: #262222;
+  font-size: 15px;
+  margin-right: 1035px;
+  margin-top: -63.5px;
+}
+span.offermiliontxt {
+  color: #262222;
+  font-size: 15px;
+  margin-right: 1060px;
+  margin-top: -58.5px;
+}
+div.goldoffer {
+  width: 52px;
+  height: 50px;
+  color: #e6e3dd;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-right: 1155px;
+  margin-top: -79.3px;
+}
+span.goldoffertxt {
+  width: 52px;
+  height: 50px;
+  color: #262222;
+  margin-right: 1140px;
+  margin-top: -79.3px;
+}
+div.laptop {
+  width: 52px;
+  height: 50px;
+  color: #e6e3dd;
+  background-color: #9f86de;
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-right: 1270px;
+  margin-top: -68.3px;
+}
+span.laptoptxt {
+  color: #262222;
+  font-size: 15px;
+  margin-right: 1260px;
+  margin-top: -63.5px;
+}
+span.laptoptxtt {
+  color: #262222;
+  font-size: 15px;
+  margin-right: 1275px;
+  margin-top: -58.5px;
+}
+div.more {
+  width: 52px;
+  height: 50px;
+  color: #e6e3dd;
+  background-color: #52525f;
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-right: 1385px;
+  margin-top: -80.3px;
+}
+span.moretxt {
+  color: #262222;
+  font-size: 15px;
+  margin-right: 1400px;
+  margin-top: -55.5px;
+}
+div.poshtibani {
+  width: 50px;
+  height: 50px;
+  background-color: #725bf2;
+  border-radius: 50%;
+  display: flex;
+  position: fixed;
+  bottom: 50px;
+  left: 70px;
+}
+div.poshtibani > a > svg {
+  margin: -25px auto;
+  margin-right: 13px;
+}
+div.amazingsection {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+div.Amazing {
+  width: 1336px;
+  height: 294px;
+  background-color: crimson;
+  border-radius: 16px;
+  margin: 50px auto;
+}
+div.amazing-intro > img.amazing-box {
+  width: 88px;
+  height: 88px;
+  margin-right: 70px;
+  margin-block: 20px !important;
+}
+div.amazing-intro > img.logo-amazing {
+  width: 80px;
+  height: 80px;
+  margin-right: 70px;
+  margin-top: 70px;
+}
+div.timer {
+  width: 25px;
+  height: 25px;
+  margin-top: -110px;
+  color: #404265;
+  background-color: #ffffff;
+  display: flex;
+  direction: ltr;
+  margin-right: 125px;
+  font-size: 19px;
+  align-items: center;
+  gap: 4px;
+  border-radius: 8px;
+}
+div.timer span {
+  width: 25px;
+  height: 25px;
+  background-color: #e6e3dd;
+  border-radius: 8px;
+}
+div.timer > span.m {
+  color: #ffffff;
+  background-color: crimson;
+}
+a.amazing-link {
+  color: white;
+  margin-inline: 60px !important;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  margin-top: 90px;
+}

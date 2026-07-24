@@ -1,0 +1,620 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DigiShop</title>
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/Main.css" />
+    <link rel="stylesheet" href="./css/swiper.css" />
+    <link rel="icon" href="./image/digi.png" />
+  </head>
+  <body>
+    <header>
+      <!-- <div class="posterfix"><a href="#">
+        <img src="./image/tablighat.gif" alt="">
+      </a></div> -->
+      <div class="container">
+        <!-- لوگو -->
+        <div class="logo">
+          <img src="./image/digi.svg" alt="digikala logo" />
+        </div>
+        <div class="Search-box">
+          <input type="search" name="" id="" placeholder="جستجو" />
+        </div>
+        <!-- header left -->
+        <div class="header-left">
+          <div class="bell">
+            <a href="https://www.digikala.com/profile/notification/">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-bell-icon lucide-bell"
+              >
+                <path d="M10.268 21a2 2 0 0 0 3.464 0" />
+                <path
+                  d="M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326"
+                /></svg
+            ></a>
+          </div>
+          <button class="login-btn">
+            ثبت نام | ورود<svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-log-in-icon lucide-log-in"
+            >
+              <path d="m10 17 5-5-5-5" />
+              <path d="M15 12H3" />
+              <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4" />
+            </svg>
+          </button>
+        </div>
+        <div class="cart">
+          <a href="https://www.digikala.com/checkout/cart/"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-shopping-cart-icon lucide-shopping-cart"
+            >
+              <circle cx="8" cy="21" r="1" />
+              <circle cx="19" cy="21" r="1" />
+              <path
+                d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </header>
+    <nav>
+      <!-- دسته بندی کالا -->
+      <div class="containerNav">
+        <div class="nav-right">
+          <div class="category">
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#262222"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-menu-icon lucide-menu"
+              >
+                <path d="M4 5h16" />
+                <path d="M4 12h16" />
+                <path d="M4 19h16" /></svg
+              >دسته بندی کالا ها</a
+            >
+          </div>
+          <!-- شگفت انگیز ها -->
+          <div class="amazings">
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-circle-percent-icon lucide-circle-percent"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <path d="m15 9-6 6" />
+                <path d="M9 9h.01" />
+                <path d="M15 15h.01" /></svg
+              >شگفت انگیز ها</a
+            >
+          </div>
+          <!-- سوپر مارکت -->
+          <div class="supermar">
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-shopping-basket-icon lucide-shopping-basket"
+              >
+                <path d="m15 11-1 9" />
+                <path d="m19 11-4-7" />
+                <path d="M2 11h20" />
+                <path
+                  d="m3.5 11 1.6 7.4a2 2 0 0 0 2 1.6h9.8a2 2 0 0 0 2-1.6l1.7-7.4"
+                />
+                <path d="M4.5 15.5h15" />
+                <path d="m5 11 4-7" />
+                <path d="m9 11 1 9" />
+              </svg>
+              سوپر مارکت
+            </a>
+          </div>
+          <!-- طلا ونقره دیجیتال -->
+          <div class="nav-item">
+            <a href="#">
+              <svg
+                class="gold-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="18"
+                height="18"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="M4.5 13L7.5 8H14L17 13L14 18H7.5L4.5 13Z"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linejoin="round"
+                />
+
+                <path
+                  d="M10 10L13 5H19L22 10L19 15H13"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linejoin="round"
+                  opacity=".75"
+                />
+              </svg>
+
+              طلا و نقره دیجیتال</a
+            >
+          </div>
+          <!-- پر فروش ترین ها -->
+          <div class="bestSellers">
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-flame-icon lucide-flame"
+              >
+                <path
+                  d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"
+                />
+              </svg>
+              پر فروش ترین ها
+            </a>
+          </div>
+          <div class="qustion">
+            <a href="#">سوالی دارید؟</a>
+          </div>
+          <div class="digisell"><a href="#"> در دیجی کالا بفروشید ! </a></div>
+          <div class="map">
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-map-pin-icon lucide-map-pin"
+              >
+                <path
+                  d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+                />
+                <circle cx="12" cy="10" r="3" /></svg
+              >تحویل به خانه
+            </a>
+            <!-- <title>مشاهده موجودی کالا ها و ارسال سریعتر</title> -->
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main class="poster">
+      <section class="storySwiper">
+        <div class="swiper mySwiper2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="#"><img src="./image/goldoffer.webp" alt="" /></a>
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/story1.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/story2.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/story3.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/story4.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/story5.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/story6.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/story7.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/story8.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/story9.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/story10.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/story11.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/story8.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/story8.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/story8.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+        <!-- Initialize Swiper -->
+        <script>
+          var swiper = new Swiper(".mySwiper2", {
+            slidesPerView: 11.5,
+            spaceBetween: -777,
+            freeMode: true,
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+            },
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+          });
+        </script>
+      </section>
+      <section class="poster">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./image/aposter.webp" alt="زیور طلا" /> Slide 1
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/bposter.webp" alt="" /> Slide 2
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/Cposter.webp" alt="" /> Slide 3
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/Dposter.webp" alt="" /> Slide 4
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/Eposter.webp" alt="" /> Slide 5
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/Fposter.webp" alt="" /> Slide 6
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/Gposter.webp" alt="" /> Slide 7
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/Lposter.webp" alt="" /> Slide 8
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/Mposter.gif" alt="" /> Slide 9
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+          var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 0,
+            centeredSlides: true,
+            autoplay: {
+              delay: 2500,
+              disableOnInteraction: false,
+            },
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+            },
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+          });
+        </script>
+      </section>
+      < class="serviceIcon">
+      <div class="supermarketFast">
+        <a href="#"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-shopping-basket-icon lucide-shopping-basket"
+          >
+            <path d="m15 11-1 9" />
+            <path d="m19 11-4-7" />
+            <path d="M2 11h20" />
+            <path
+              d="m3.5 11 1.6 7.4a2 2 0 0 0 2 1.6h9.8a2 2 0 0 0 2-1.6l1.7-7.4"
+            />
+            <path d="M4.5 15.5h15" />
+            <path d="m5 11 4-7" />
+            <path d="m9 11 1 9" /></svg
+        ></a>
+      </div>
+      <span class="supermarketfast">سوپر مارکت </span>
+      <div class="goldIcon">
+        <a href="#">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 64 64"
+            width="24"
+            height="24"
+            fill="currentColor"
+          >
+            <!-- شمش بالا -->
+            <path d="M24 16L40 16L46 24L18 24Z" />
+
+            <!-- شمش پایین چپ -->
+            <path d="M10 28L30 28L36 48L4 48Z" />
+
+            <!-- شمش پایین راست -->
+            <path d="M34 28L54 28L60 48L28 48Z" />
+
+            <!-- جرقه بزرگ -->
+            <path d="M18 8l2 4 4 2-4 2-2 4-2-4-4-2 4-2z" />
+
+            <!-- جرقه کوچک -->
+            <path
+              d="M12 14l1.2 2.4L16 17.6l-2.8 1.2L12 21l-1.2-2.2L8 17.6l2.8-1.2z"
+            />
+          </svg>
+        </a>
+      </div>
+      <span class="goldtext">طلا و نقره دیجیتال </span>
+      <div class="football">
+        <a href="#"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-volleyball-icon lucide-volleyball"
+          >
+            <path d="M11 7a16 16 20 0 1 10.98 4.362" />
+            <path d="M12 12a13 13 0 0 1-8.66 5" />
+            <path d="M16.83 13.634a16 16 0 0 1-9.267 7.328" />
+            <path d="M20.66 17A13 13 0 0 0 12 12a13 13 0 0 1 0-10" />
+            <path d="M8.17 15.366a16 16 0 0 1-1.713-11.69" />
+            <circle cx="12" cy="12" r="10" /></svg
+        ></a>
+      </div>
+      <span class="footballtext">بفرمایید جام</span>
+      <div class="sendfast">
+        <a href="#"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-rocket-icon lucide-rocket"
+          >
+            <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5" />
+            <path
+              d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09"
+            />
+            <path
+              d="M9 12a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.4 22.4 0 0 1-4 2z"
+            />
+            <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 .05 5 .05" /></svg
+        ></a>
+      </div>
+      <span class="sendfasttext">ارسال سه ساعته</span>
+      <div class="baby">
+        <a href="#">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-baby-icon lucide-baby"
+          >
+            <path d="M10 16c.5.3 1.2.5 2 .5s1.5-.2 2-.5" />
+            <path d="M15 12h.01" />
+            <path
+              d="M19.38 6.813A9 9 0 0 1 20.8 10.2a2 2 0 0 1 0 3.6 9 9 0 0 1-17.6 0 2 2 0 0 1 0-3.6A9 9 0 0 1 12 3c2 0 3.5 1.1 3.5 2.5s-.9 2.5-2 2.5c-.8 0-1.5-.4-1.5-1"
+            />
+            <path d="M9 12h.01" />
+          </svg>
+        </a>
+      </div>
+      <span class="babytext">نیازمندی مادر و کودک</span>
+
+      <div class="servicdigi">
+        <a href="#"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 100 40"
+            width="52"
+            height="50"
+          >
+            <path
+              d="M20 15 Q50 35 80 15"
+              fill="none"
+              stroke="#e6e3dd"
+              stroke-width="6"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            /></svg
+        ></a>
+      </div>
+      <span class="digiservic">دیجی کالا سرویس</span>
+      <div class="offermilion">
+        <a href=""><span>DS</span></a>
+      </div>
+      <span class="offermiliontext"> 1میلیون تخفیف </span>
+      <span class="offermiliontxt">بیشتر</span>
+      <div class="goldoffer">
+        <a href="#"><img src="./image/goldoffer.webp" alt="" /> </a>
+      </div>
+      <span class="goldoffertxt">تا 22% تخفیف طلا</span>
+      <div class="laptop">
+        <a href="#"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-laptop-minimal-icon lucide-laptop-minimal"
+          >
+            <rect width="18" height="12" x="3" y="4" rx="2" ry="2" />
+            <line x1="2" x2="22" y1="20" y2="20" /></svg
+        ></a>
+      </div>
+      <span class="laptoptxt">اقتصادی ترین</span>
+      <span class="laptoptxtt">لپتاپ ها</span>
+      <div class="more">
+        <a href="#"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-ellipsis-icon lucide-ellipsis"
+          >
+            <circle cx="12" cy="12" r="1" />
+            <circle cx="19" cy="12" r="1" />
+            <circle cx="5" cy="12" r="1" /></svg
+        ></a>
+      </div>
+      <span class="moretxt">بیشتر</span>
+      <div class="poshtibani">
+        <a href="#"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-headset-icon lucide-headset"
+          >
+            <path
+              d="M3 11h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-5Zm0 0a9 9 0 1 1 18 0m0 0v5a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3Z"
+            />
+            <path d="M21 16v2a4 4 0 0 1-4 4h-5" /></svg
+        ></a>
+      </div>
+      <div class="Amazing">
+        <div class="amazing-intro">
+        
+          <img
+            src="./image/پیشنهاد شگفت انگیز.svg"
+            alt=""
+            class="amazing-box"
+          />
+           <img
+            src="./image/شگفت انگیز دیجی کالا.svg"
+            class="logo-amazing"
+            alt=""
+          />
+        </div>
+        <div class="timer">
+          <span>12</span>
+          <span class="m">:</span>
+          <span>48</span>
+          <span class="m">:</span>
+          <span>32</span>
+        </div>
+        <a href="#" class="amazing-link"> مشاهده همه > </a>
+      </div>
+    </main>
+  </body>
+</html>

@@ -443,3 +443,46 @@ a.amazing-link {
   display: flex;
   margin-top: 90px;
 }
+/* پوستر چهارتایی */
+div.ptabligh {
+  display: flex;
+  justify-content: space-evenly;
+}
+div.ptabligh > div {
+  width: 22%;
+}
+div.ptabligh > div > a {
+  width: 100%;
+  display: flex;
+  
+}
+div.ptabligh > div > a > img {
+  height: 235.5px;
+  width: 314px;
+  border-radius: 16px;
+  gap: 4;
+}
+div.ptabligh>div.imgbug{
+  height: 235.5px;
+  width: 314px;
+  border-radius: 12px;
+  
+}
+div.deliveryseller{
+  width: 1336px;
+  height: 405px;
+  background-color: bisque;
+  border-radius: 16px;
+  margin: 50px auto;
+}
+div.deliveryseller span.deliveytxt{
+  margin-block: 35px !important;
+}
+span.deliverytxt{
+  margin-right: 65px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 100;
+  font-family: sans-serif;
+  color: black;
+}

@@ -89,47 +89,105 @@ div.mySwiper3  div.swiper-slide img {
 
 /* تنظیم سایز کارت‌ها برای freeMode */
 .mySwiper3 .swiper-slide {
-  width: 166px; /* عرض هر کارت */
-  height: 314px; /* ارتفاع هر کارت */
+  width: 100%; /* عرض هر کارت */
+  height: 164; /* ارتفاع هر کارت */
   background: #ffffff;
   border-radius: 12px;
-  overflow: hidden;
-  box-sizing: border-box;
+  display: block;
 }
 
 /* استایل کارت محصول و عکس */
-.product-card {
+/* .product-card {
   width: 200px;
-  height: 100%;
+  height:;
   padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
-}
+} */
 
-.product-card img {
-  width: 164;
-  height: 150px;
+.swiper-slide a img {
+  width: 164px;
+  height: 164px;
   object-fit: contain; /* نمایش کامل عکس بدون برش و کشیدگی */
   display: block;
   margin: 0 auto;
 }
 
-.product-title {
-  font-size: 12px;
-  color: #3f4064;
-  text-align: right;
+h3.product-title {
   width: 100%;
-  margin: 5px 0;
-  line-height: 1.4;
+  padding: 0;
+  color: #3f4064;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: right;
+  direction: rtl;
+  /* فقط دو خط */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
-.product-price {
-  font-size: 13px;
-  font-weight: bold;
-  color: #2b2b2b;
-  text-align: left;
+.product-prices {
   width: 100%;
+  margin-top: 8px;
+  direction: ltr;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+/* تخفیف سمت چپ */
+.discount {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  width: 30px;
+  height: 19px;
+  padding: 5px;
+  background-color: #ef394e;
+  color: white;
+  border-radius: 20px;
+  font-size: 10px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+/* قیمت قدیم سمت راست */
+.old-price {
+  color: #a1a3a8;
+  font-size: 14px;
+  margin-bottom: 80px;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+/* قیمت جدید */
+
+.new-price {
+  color: #3f4064;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 21px;
+  white-space: nowrap;
+}
+div.swiper-slide1 {
+  width: 250px;
+  height: 185px;
+  margin: 50px auto;
+  background-color: #ffffff;
+}
+div.swiper-slide1 svg {
+  width: 450px;
+  height: 450px;
+  margin-top: 100px;
+  border-radius: 50%;
+  border: 2px solid #3f4064;
+  color: black;
+}
+div.swiper-slide1 h4.txtall {
+  color: #3f4064;
+  font-size: 14px;
 }

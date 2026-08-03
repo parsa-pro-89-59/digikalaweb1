@@ -1,0 +1,40 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D7CFF"></stop>
+      <stop offset="100%" stop-color="#0A2A88"></stop>
+    </linearGradient>
+  </defs>
+
+  <!-- D Shape -->
+  <path d="M130 90
+           H260
+           C355 90 425 160 425 256
+           C425 352 355 422 260 422
+           H130
+           Z" fill="url(#blueGrad)"></path>
+
+  <!-- Inner White -->
+  <path d="M180 145
+           H255
+           C320 145 372 192 372 256
+           C372 320 320 367 255 367
+           H180
+           Z" fill="white"></path>
+
+  <!-- Shopping Cart -->
+  <path d="M170 210
+           H290
+           L275 280
+           H195
+           L180 235
+           H155" fill="none" stroke="#0A2A88" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"></path>
+
+  <circle cx="205" cy="310" r="12" fill="#0A2A88"></circle>
+  <circle cx="260" cy="310" r="12" fill="#0A2A88"></circle>
+
+  <!-- Text -->
+  <text x="256" y="475" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" text-anchor="middle" fill="#0A2A88">
+    DigiShop
+  </text>
+</svg>

@@ -162,6 +162,7 @@ h3.product-title {
   margin-bottom: 80px;
   line-height: 18px;
   white-space: nowrap;
+  text-decoration: line-through;
 }
 
 /* قیمت جدید */

@@ -192,3 +192,57 @@ div.swiper-slide1 h4.txtall {
   color: #3f4064;
   font-size: 14px;
 }
+.mySwiper4 > .swiper-slide {
+  height: 124px;
+  width: 100%; /* عرض هر کارت */
+  border: 1px solid #000000;
+
+  display: block;
+
+  margin-bottom: 180px;
+}
+.mySwiper4 .swiper-slide a img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain; /* نمایش کامل عکس بدون برش و کشیدگی */
+  display: block;
+  margin-bottom: 30px;
+}
+
+section.berandswiper {
+  margin-top: 50px;
+}
+h4.titile {
+  width: 88px;
+  height: 21px;
+  color: rgb(66, 71, 80);
+  font-size: 18px;
+  font-weight: 400;
+  display: flow-root;
+  cursor: pointer;
+  padding-inline-start: 8px;
+  margin-top: 90px;
+  margin-right: -100px;
+}
+div.swipeberand {
+  width: 1336px;
+  height: 219px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  margin: 50px auto;
+  color: #000000;
+  border: 1px solid rgb(119, 114, 114);
+}
+div.swipeberand span {
+  margin-inline-start: 10px;
+  font-size: 20px;
+}
+div.swipeberand svg {
+  margin-inline-start: 80px;
+}
+section.swiperproductamazing1 .mySwiper3 .swiper-slide {
+  height: 274px;
+  width: 164px;
+  margin-block: 265px;
+  margin-left: 85px;
+}

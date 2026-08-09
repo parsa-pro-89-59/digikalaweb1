@@ -447,20 +447,19 @@ a.amazing-link {
 div.ptabligh {
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 100px;
 }
 div.ptabligh > div {
-  width: 23.5%;
+  width: 22%;
+  height: 240px;
 }
 div.ptabligh > div > a {
   width: 100%;
   display: flex;
 }
 div.ptabligh > div > a > img {
-  height: 235.5px;
-  width: 314px;
+  width: 100%;
   border-radius: 16px;
-  margin-right: 100px;
-  gap: 2px;
 }
 
 div.deliveryseller {
@@ -533,7 +532,7 @@ div.categoryproducts {
   align-items: center;
   column-gap: 8px;
 }
-div.categoryproducts h3{
+div.categoryproducts h3 {
   margin-bottom: 150px;
   margin-left: -120px;
 }
@@ -542,9 +541,9 @@ div.categoryproducts > div > a > img {
   width: 100px;
   height: 100px;
   margin-left: 70px;
-
 }
-div.categoryproducts1 {
+div.categoryproducts {
+  width: 1336px;
   color: #000000;
   font-size: 20px;
   display: flex;
@@ -554,10 +553,99 @@ div.categoryproducts1 {
   column-gap: 8px;
 }
 
-div.categoryproducts1 > div > a > img {
+div.categoryproducts > div > a > img {
   border-radius: 50%;
   width: 100px;
   height: 100px;
   margin-left: 70px;
-display: flex;
 }
+div.categoryproducts > div.cate > a > img {
+  border-radius: 50%;
+  margin-left: 70px;
+  margin-top: 280px;
+  display: flex;
+}
+div.ctegoryproduct1 > div > a > img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-right: 170px;
+  margin-top: 175px;
+}
+div.ctegoryproduct1 {
+  width: 1336px;
+  color: #000000;
+  font-size: 17px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 8px;
+}
+div.ptbligh2tayi {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 70px;
+}
+div.ptbligh2tayi > div {
+  width: 48%;
+  height: 240px;
+}
+div.ptbligh2tayi > div > a {
+  width: 100%;
+  display: flex;
+}
+div.ptbligh2tayi > div > a > img {
+  width: 644px;
+  border-radius: 16px;
+  margin-right: 100px;
+}
+div.poster2th {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+div.poster2th > div {
+  width: 49%;
+  height: 100%;
+  margin: 50px auto;
+}
+div.poster2th > div > a {
+  width: 100%;
+  display: flex;
+}
+div.poster2th > div > a > img {
+  border-radius: 16px;
+  width: 100%;
+}
+div.slide1 {
+  width: 1336px;
+  height: 386px;
+  color: #0c0c0c;
+  background-color: #e4dede;
+  font-size: 19px;
+  margin: 50px auto;
+  border-radius: 16px;
+}
+.slide1 > h3.titles {
+  width: 106px;
+  height: 23px;
+  margin-right: 100px;
+  padding-top: 25px;
+}
+p.title {
+  font-size: 17px;
+  margin-right: 100px;
+  padding-top: 25px;
+  color: #9bafc7;
+}
+div.SeeAll {
+  background-color: #f0f0f1;
+  height: 25px;
+  width: 110px;
+  margin-right: 1150px;
+  margin-block: -18px;
+  text-align: center;
+  border-radius: 8px;
+}
+

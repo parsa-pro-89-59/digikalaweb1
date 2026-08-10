@@ -622,10 +622,11 @@ div.slide1 {
   width: 1336px;
   height: 386px;
   color: #0c0c0c;
-  background-color: #e4dede;
+  background-color: #fff;
   font-size: 19px;
   margin: 50px auto;
   border-radius: 16px;
+  border: 1px solid #9696a0;
 }
 .slide1 > h3.titles {
   width: 106px;

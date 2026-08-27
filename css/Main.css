@@ -649,4 +649,93 @@ div.SeeAll {
   text-align: center;
   border-radius: 8px;
 }
-
+main {
+  border-bottom: 1px solid rgb(124, 120, 120);
+}
+div.footerlogo {
+  margin-top: 50px;
+  margin-right: 90px;
+  height: 30px;
+  width: 195px;
+}
+div.backtop {
+  border: 1px soild #706767;
+  height: 40px;
+  width: 137px;
+  text-align: center;
+  color: #020202;
+  background-color: #474040;
+  margin-inline: 1600px;
+  margin-top: -35px;
+  border-radius: 12px;
+}
+div.backtop svg {
+  margin-top: 7px;
+}
+.suporttell {
+  color: #000000;
+  margin-top: 30px;
+  border-left: 1px solid #3cc1f6;
+  font-size: 12px;
+  display: flex;
+  font-family: sans-serif;
+}
+.tell {
+  color: #000000;
+  font-size: 12px;
+  font-family: sans-serif;
+  display: flex;
+  margin-right: 230px;
+  margin-top: -15px;
+}
+.suporttell span {
+  color: #000000;
+  margin-top: 30px;
+  margin-right: 405px;
+  border-left: 1px solid #3cc1f6;
+  font-size: 12px;
+  display: flex;
+  font-family: sans-serif;
+}
+div.pheader {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px auto;
+  gap: 6px;
+  color: #000000;
+  overflow: hidden;
+}
+div.pheader > div {
+  width: 18.5%;
+  height: 240px;
+}
+div.pheader > div > a {
+  width: 100%;
+  display: flex;
+  margin: 50px auto;
+}
+div.pheader > div > a > img {
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  margin-inline: 50px auto;
+}
+span.expres {
+  color: #262222;
+  font-size: 15px;
+  margin-inline: -172px;
+  margin-top: 75px;
+}
+span.exspres {
+  color: #262222;
+  font-size: 15px;
+  margin-right: 172px;
+  margin-top: 75px;
+}
+h3.exp {
+  color: #262222;
+  font-size: 15px;
+  margin-left: -262px;
+  margin-top: -175px;
+  overflow: hidden;
+}

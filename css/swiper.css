@@ -108,13 +108,7 @@ div.mySwiper3  div.swiper-slide img {
   box-sizing: border-box;
 } */
 
-.swiper-slide a img {
-  width: 164px;
-  height: 164px;
-  object-fit: contain; /* نمایش کامل عکس بدون برش و کشیدگی */
-  display: block;
-  margin: 0 auto;
-}
+
 
 h3.product-title {
   width: 100%;

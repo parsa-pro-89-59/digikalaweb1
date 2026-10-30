@@ -1,0 +1,12 @@
+{
+  "user": [
+    { "id": 1, "name": "ali", "job": "student" },
+    { "id": 2, "name": "amir", "job": "programmer" },
+    { "id": 3, "name": "parsa", "job": "vakil" }
+  ],
+  "sliderposter": [
+    { "id": 1, "image": "./image/Pposetr.webp", "alt": "instagram shop" },
+    { "id": 2, "image": "./image/aposter.webp", "alt": "Gold" },
+    { "id": 3, "image": "./image/bposter.webp", "alt": "world cup fotball" }
+  ]
+}

@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  
 }
 body {
   width: 100%;
@@ -9,6 +10,7 @@ body {
   direction: rtl;
   font-family: arial;
   background-color: #fff;
+  /* overflow-x: hidden; */
 }
 a {
   text-decoration: none;

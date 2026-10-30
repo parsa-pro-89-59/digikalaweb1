@@ -7,6 +7,7 @@
   "sliderposter": [
     { "id": 1, "image": "./image/Pposetr.webp", "alt": "instagram shop" },
     { "id": 2, "image": "./image/aposter.webp", "alt": "Gold" },
-    { "id": 3, "image": "./image/bposter.webp", "alt": "world cup fotball" }
+    { "id": 3, "image": "./image/bposter.webp", "alt": "world cup fotball" },
+    { "id": 4, "image": "./image/bposter.webp", "alt": "world cup fotball" }
   ]
 }
